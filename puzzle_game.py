@@ -29,19 +29,17 @@ components:
 - extract data from puzzle file provided
 - register images and create puzzle pieces on the screen
 
+
 the game will automatically start and be fully functional upon instance creation and requires
 no other input from the user
 
+To dos:
+- update splash screens for load, quit, win and lose
+- 
+
 The play method of the class manages the program response to clicking on the screen and
 is the main driver of all functionality contained within the program including:
-- moving tiles if adjacent to the blank tile
-- tracking and updating number of turns
-- defining if you win or lose
-	- if you win you will be entered into the leaderboard for all eternity! if no leaderboard.txt
-	  file exists, one will be created and 
-- reseting the puzzle
-- quitting the program
-- loading a new puzzle
+
 
 '''
 
